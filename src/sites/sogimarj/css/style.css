@@ -1,0 +1,227 @@
+/*
+Theme Name: Sogima-RJ
+Theme URI: http://www.sogima-rj.edu.br/
+Description: Tema desenvolvido por Rodrigo Abinader para o site Sogima-RJ
+Author: Rodrigo Abinader
+Author URI: 
+Version: 1.0
+*/
+
+/* geral */
+h1{color:#328fb3;font:300 2em/1.2em Georgia, "Times New Roman", Times, serif;margin-bottom:0.5em;}
+
+h2,
+h2 a,
+h2 a:hover,
+h2 a:focus{color:#97ba58;}
+
+h3,
+h3 a,
+h3 a:hover,
+h3 a:focus{color:#328fb3;}
+
+h2 a,
+h3 a{text-decoration:none;}
+
+h2 a:hover,
+h2 a:focus,
+h3 a:hover,
+h3 a:focus{text-decoration:underline;}
+
+h4{font-size:1em;font-weight:700;margin-bottom:0.6em;}
+
+.box h2{color:#4e4d4a;}
+
+.continuar{background:url('img/ico-seta-dir.png') 0 center no-repeat;padding-left:10px;}
+
+.bt01,
+.bt01 a,
+.bt01:hover,
+.bt01:focus,
+.bt02,
+.bt02:hover,
+.bt02:focus,
+.bt03,
+.bt03:hover,
+.bt03:focus{color:#fff;text-decoration:none;}
+
+.bt01,
+.bt02,
+.bt03{background-position:center 0;background-repeat:no-repeat;color:#fff;cursor:pointer;display:block;font-weight:700;text-align:center;text-decoration:none;text-transform:uppercase;text-shadow:1px 1px 0 #191919;}
+
+.bt01{background-color:#3a3937;background-image:url('img/bg-bt01.png');border:1px solid #262524;border-radius:15px;font-size:10px;padding:4px 10px;}
+.bt01.current,
+.bt01:hover{background:#2e2e2e;}
+
+
+.bt02,
+.bt03{border-radius:18px;color:#fff;padding:8px;}
+
+.bt02{background-color:#2e567d;background-image:url('img/bg-bt01.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0, #3188ab), color-stop(1, #254262));border:2px solid #203753;}
+.bt02:hover{background-image:url('img/bg-bt01.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0, #2b7998), color-stop(1, #19314b));}
+
+.bt03{background-color:#658e0c;background-image:url('img/bg-bt01.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0, #92b354), color-stop(1, #507305));border:2px solid #456205;}
+.bt03:hover{background-image:url('img/bg-bt01.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0, #86a64a), color-stop(1, #49640f));}
+
+.bt02.pequeno{padding:4px 10px;}
+
+ul.listaBotoes{padding-left:0;margin:5px 0 20px;overflow:hidden;}
+li.bt01{float:left;margin-right:5px;}
+
+ul .current a{color:#666;text-decoration:none;}
+
+.chamadaExtensa img{float:left;margin-bottom:10px;margin-right:10px;}
+
+/* forms */
+form p{margin-bottom:0.5em;}
+form label{font-weight:normal;}
+form input.text{margin-top:0.2em;}
+
+select{display:block;width:230px;}
+
+/* header */
+header{background:url('img/bg-header.png');height:130px;overflow:hidden;}
+header .container{position:relative;}
+header #logo{background:url('img/logo-sogima.png');height:152px;display:block;float:left;margin-top:5px;text-indent:-999em;width:409px;}
+header p{color:#7f9d4c;float:left;font:normal 20px/1.2em Georgia, "Times New Roman", Times, serif;margin:65px 0 0 40px;}
+header p span{display:block;}
+
+header ul{list-style:none;margin:0;padding:0;position:absolute;right:0;top:12px;}
+header li{float:right;margin-left:10px;}
+
+.breadcrumbs{color:#fff;font-size:1px;margin-bottom:7px;}
+.breadcrumbs a,
+.breadcrumbs span{font-size:11px;}
+.breadcrumbs a{background:url('img/ico-seta-dir.png') right 3px no-repeat;margin-right:5px;padding-right:13px;}
+.breadcrumbs span{color:#4e4d4a;}
+
+/* menu */
+nav{background:#8eac56 url('img/bg-menu.gif') repeat-x;border-bottom:1px solid #778f4c;border-top:1px solid #778f4c;display:block;margin-bottom:5px;}
+nav ul{border-left:1px solid #78914c;border-right:1px solid #9eb477;list-style:none;margin:0;overflow:hidden;padding:0;}
+nav li,
+nav a{display:block;float:left;}
+nav a{background:#8eac56 url('img/bg-menu.gif') repeat-x;border-left:1px solid #9eb477;border-right:1px solid #78914c;color:#fff;font-size:1.2em;font-weight:700;padding:16px 40px;text-decoration:none;text-shadow:1px 1px 0 #191919;text-transform:uppercase;}
+nav a:hover,
+nav .current_page_item a,
+nav .current_page_ancestor a{background-position:0 -54px;color:#fff;}
+nav li:hover ul{display:block;margin-top:53px;}
+nav ul .sub-menu li{display:block;float:none;padding:5px 10px;z-index:1000;}
+nav ul .sub-menu{display:none;position:absolute;background:#8eac56;border-left:1px solid #78914c;border-bottom:1px solid #78914c;border-right:1px solid #9eb477;list-style:none;margin:0;overflow:hidden;padding:0;}
+nav .sub-menu a{background:#8eac56;border:none;color:#fff;font-size:1.2em;font-weight:700;padding:10px 10px;text-decoration:none;text-shadow:1px 1px 0 #505050;text-transform:uppercase;width:100%;}
+nav .sub-menu a:hover{color:#eeeeee;}
+
+/* parceiros */
+.parceiros p{margin-top:2em;text-align:center;}
+
+/* conteudo */
+#conteudo{padding-top:15px;}
+
+/* home - banners */
+#homeBanners{height:170px;overflow:hidden;width:690px;z-index:-999;}
+
+/* home - eventos */
+#homeEventos div{margin-top:0.5em;text-align:center;}
+#homeEventos h3{padding:0.5em;}
+
+/* cursos */
+.chamada{margin-bottom:4px;}
+
+/* curso */
+.modulo{margin-bottom:1em;}
+.modSubtitulo h4{color:#4e4d4a;padding-left:12px;}
+.modSubtitulo.temConteudo h4{background:url('img/ico-seta-dir.png') 2px 4px no-repeat;cursor:pointer;}
+.modSubtitulo.temConteudo h4,
+.modSubtitulo.temConteudo span{color:#2d4e75;}
+.modSubtitulo.temConteudo.aberto h4{background:url('img/ico-seta-baixo.png') 0 5px no-repeat;}
+
+.modSubtitulo,
+.modConteudo{clear:both;overflow:hidden;}
+
+.modConteudo{display:none;margin-left:12px;}
+
+#col2 h3{color:inherit;font:inherit;font-weight:700;margin-bottom:0.2em;}
+
+
+/* rodape */
+footer{background:#4e4d4a;clear:both;margin-top:1em;padding-top:1.5em;}
+footer h2{text-transform:uppercase;}
+footer ul{list-style:none;padding:0;}
+footer a,
+footer a:hover,
+footer a:focus{color:#fff;}
+footer a{text-decoration:none;}
+footer a:hover{text-decoration:underline;}
+
+#endereco{padding:0.8em 0;}
+#endereco .last{text-align:right;}
+
+/* home */
+#homeNoticias{margin-top:2em;}
+.homeNoticiasTexto p{margin-bottom:0.4em;}
+
+/* diretoria e comissões */
+.diretoriaComissoes h2{display:inline-block;margin-right:5px;}
+.frm-show-form .submit {text-align:center;}
+
+#loginform{border-radius:10px;padding:1.5em;margin-bottom:1.5em;background:#ffffff;border:solid 1px #cfcfcf;width:300px;float:right;margin-right:30px;margin-top:40px;}
+.login-username label,
+.login-password label {display:block;}
+.login-username input,
+.login-password input {width:290px;}
+.login-remember {float:right;}
+
+.userinfo{position:absolute;left:450px;font:normal 0.9em Georgia, "Times New Roman", Times, serif;margin-top:3px;}
+.userinfo a{text-decoration:none;}
+
+.jshowoff {z-index:-999;}
+.jshowoff p.jshowoff-slidelinks {
+	position: absolute;
+	bottom: 5px;
+	right: 25px;
+	margin: 0;
+	padding: 0;
+	}
+.jshowoff-slidelinks a, .jshowoff-controls a {
+	display: block;
+	background-color: #000;
+	color: #fff;
+	padding: 5px 7px 5px;
+	margin: 5px 0 0 5px;
+	float: left;
+	text-decoration: none;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	outline: none;
+	font-size: 11px;
+	line-height: 14px;
+	}
+.jshowoff-slidelinks a:hover, .jshowoff-controls a:hover {
+	color: #fff;
+	}
+.jshowoff-slidelinks a.jshowoff-active, .jshowoff-slidelinks a.jshowoff-active:hover {
+	background-color: #fff;
+	color: #000;
+	}
+.thumbFeatures p.jshowoff-slidelinks {
+	background: #000;
+	bottom: 0;
+	padding: 5px 0 5px 5px;
+	right: 113px;
+	height: 32px;
+	}
+.thumbFeatures .jshowoff-slidelinks a {
+	display: block;
+	width: 60px;
+	height: 30px;
+	background-color: none;
+	background-repeat: no-repeat;
+	margin: 0 5px 0 0;
+	padding: 0;
+	border: 1px solid #4f4f4f;
+	text-indent: -10000em;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	}
+.thumbFeatures .jshowoff-slidelinks a.jshowoff-active {
+	border: 1px solid #fff;
+	}

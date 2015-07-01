@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>SOGIMA-RJ - Cursos - Pós-Graduação em Mastologia</title>
+
+<!-- Framework CSS -->
+<link rel="stylesheet" href="blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="blueprint/print.css" type="text/css" media="print">
+<!--[if lt IE 8]><link rel="stylesheet" href="blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+<link rel="stylesheet" href="style.css" type="text/css" media="screen, projection">
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+$(function() {
+	var modSubtitulo = $('.modConteudo').prev('.modSubtitulo');
+	modSubtitulo
+		.addClass('temConteudo')
+		.click(function() {
+			if ($(this).hasClass('aberto')) {
+				$(this)
+					.removeClass('aberto')
+					.next().slideUp();
+			} else {
+				$(this)
+					.addClass('aberto')
+					.next().slideDown();
+			}
+		});
+});
+</script>
+</head>
+<body>
+
+<!-- header e menu -->
+<header class="clearfix">
+	<div class="container">
+		<a href="/" id="logo" title="SOGIMA-RJ - Ir para a página inicial">SOGIMA-RJ</a>
+		<p><span>Interatividade em</span> Educação Médica Continuada</p>
+		<ul>
+			<li><a href="/" class="bt01">Área do aluno</a></li>
+			<li><a href="/" class="bt01">Área do associado</a></li>
+		</ul>
+	</div>
+</header>
+
+<nav id="access" role="navigation">
+	<div class="container">
+		<ul>
+			<li class="page_item page-item-1"><a href="/" title="A SOGIMA">A SOGIMA</a></li>
+			<li class="page_item page-item-2"><a href="/" title="Notícias">Notícias</a></li>
+			<li class="page_item page-item-3"><a href="/" title="Eventos">Eventos</a></li>
+			<li class="page_item page-item-4 current_page_item"><a href="/" title="Cursos">Cursos</a></li>
+			<li class="page_item page-item-5"><a href="/" title="Publicações">Publicações</a></li>
+			<li class="page_item page-item-6"><a href="/" title="Contato">Contato</a></li>
+		</ul>
+	</div>
+</nav>
+<!-- /header e menu -->
+
+
+<!-- breadcrumbs -->
+<div class="container">
+	<div class="breadcrumbs breadcrumb_trail">
+		<a title="Ir para a página inicial" href="/" class="site-home">Inicial</a> &gt;
+		<a title="Ir para Cursos" href="/cursos/" class="page">Cursos</a> &gt;
+		<span class="current">Pós-Graduação em Mastologia</span>
+	</div>
+</div>
+<!-- /breadcrumbs -->
+
+<!-- conteudo -->
+<div id="conteudo" class="container">
+	
+	<!-- conteudo da pagina -->
+	<div class="span-18">
+
+		<!-- titulo da pagina -->
+		<h1>Pós-Graduação em Mastologia</h1>
+		<!-- /titulo da pagina -->
+		
+		<!-- coluna da esquerda -->
+		<div id="col1" class="span-12">
+
+			<!-- informacoes -->
+			<h2>Informações</h2>
+			<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+			<p>Aenean lacinia bibendum nulla sed consectetur. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+			<!-- /informacoes -->
+			
+			<!-- disciplinas -->
+			<h2>Organização curricular e conteúdo das disciplinas</h2>
+			<div class="modulo clear">
+				<h3>Módulo I - Básico de Mastologia - 60h/a</h3>
+				
+				<div class="modSubtitulo">
+					<h4 class="span-7">Anatomia / Embriologia / Histologia</h4>
+					<span class="span-2 last">20h/a</span>
+				</div>
+				<div class="modConteudo span-11">
+					<strong>Anatomia</strong>
+					<ol>
+						<li>
+							Mamas
+							<ol>
+								<li>Rede vascular</li>
+								<li>Rede linfática</li>
+								<li>Inervação</li>
+							</ol>
+						</li>
+						<li>
+							Pelve
+							<ol type="a">
+								<li>Pelve óssea</li>
+								<li>Estruturas mio-ligamentares</li>
+								<li>Visceras pélvicas</li>
+								<li>Rede vascular</li>
+								<li>Rede linfática</li>
+							</ol>
+						</li>
+					</ol>
+				</div>
+				
+				<div class="modSubtitulo">
+					<h4 class="span-7">Fisiologia / Bioquímica</h4>
+					<span class="span-2 last">10h/a</span>
+				</div>
+				
+				<div class="modSubtitulo">
+					<h4 class="span-7">Diagnose</h4>
+					<span class="span-2 last">20h/a</span>
+				</div>
+				
+				<div class="modSubtitulo">
+					<h4 class="span-7">Seminários / Revisão / Avaliação do Módulo</h4>
+					<span class="span-2 last">10h/a</span>
+				</div>
+			</div>
+			
+			<div class="modulo clear">
+				<h3>Módulo II - Clínico terapêutico (doenças benignas das mamas) - 60h/a</h3>
+				
+				<div class="modSubtitulo">
+					<h4 class="span-7">Doenças Benignas</h4>
+					<span class="span-2 last">30h/a</span>
+				</div>
+				<div class="modSubtitulo">
+					<h4 class="span-7">Técnicas Cirurgicas no Tratamento das Doenças Benignas</h4>
+					<span class="span-2 last">20h/a</span>
+				</div>
+				<div class="modSubtitulo">
+					<h4 class="span-7">Seminários / Revisões / Avaliação de Módulo</h4>
+					<span class="span-2 last">10h/a</span>
+				</div>
+			</div>
+
+			<div class="modulo clear">
+				<h3>Módulo III - Clínico terapêutico (doenças malignas das mamas) - 120h/a</h3>
+				
+				<div class="modSubtitulo">
+					<h4 class="span-7">Doenças Benignas</h4>
+					<span class="span-2 last">30h/a</span>
+				</div>
+				<div class="modSubtitulo">
+					<h4 class="span-7">Técnicas Cirurgicas no Tratamento das Doenças Benignas</h4>
+					<span class="span-2 last">20h/a</span>
+				</div>
+				<div class="modSubtitulo">
+					<h4 class="span-7">Seminários / Revisões / Avaliação de Módulo</h4>
+					<span class="span-2 last">10h/a</span>
+				</div>
+			</div>
+
+			<div class="modulo clear">
+				<h3>Módulo IV - Cursos de extensão - 20h/a</h3>
+				
+				<div class="modSubtitulo">
+					<h4 class="span-7">Oncologia Mamária</h4>
+					<span class="span-2 last">50h/a</span>
+				</div>
+				<div class="modSubtitulo">
+					<h4 class="span-7">Seminários / Revisões / Avaliação do Módulo</h4>
+					<span class="span-2 last">10h/a</span>
+				</div>
+				<div class="modSubtitulo">
+					<h4 class="span-7">Tumores e Situações Especiais</h4>
+					<span class="span-2 last">20h/a</span>
+				</div>
+				<div class="modSubtitulo">
+					<h4 class="span-7">Tratamento Cirúrgico / Não Cirurgico</h4>
+					<span class="span-2 last">20h/a</span>
+				</div>
+				<div class="modSubtitulo">
+					<h4 class="span-7">Seguimento da Paciente Tratada de Câncer das Mamas</h4>
+					<span class="span-2 last">20h/a</span>
+				</div>
+				<div class="modSubtitulo">
+					<h4 class="span-7">Seminários / Revisões / Avaliação do Módulo</h4>
+					<span class="span-2 last">10h/a</span>
+				</div>
+			</div>
+
+			<div class="modulo clear">
+				<h3>Módulo V - Domínios conexos - 100h/a</h3>
+				
+				<div class="modSubtitulo">
+					<h4 class="span-7">Metodologia de Pesquisa e Bioestatística</h4>
+					<span class="span-2 last">50h/a</span>
+				</div>
+				<div class="modSubtitulo">
+					<h4 class="span-7">Didática e Pedagogia</h4>
+					<span class="span-2 last">40h/a</span>
+				</div>
+				<div class="modSubtitulo">
+					<h4 class="span-7">Seminários / Revisões / Avaliação do Módulo</h4>
+					<span class="span-2 last">10h/a</span>
+				</div>
+			</div>
+
+			<div class="modulo clear">
+				<h3>Orientação de monografias - 40h/a</h3>			
+			</div>
+			<!-- /disciplinas -->
+		</div>
+		<!-- /coluna da esquerda -->
+		
+		<!-- coluna da direita -->
+		<div id="col2" class="span-6 last">
+			
+			<!-- investimento -->
+			<div id="cursoInvestimento">
+				<h2>Investimento</h2>
+				<h3>Médicos</h3>
+				<p>24 x R$ 700,00 (R$ 16.800,00)<br>À vista por R$ 15.120,00 (com 10% de desconto)</p>
+				<h3>Médicos membros da SOGIMA-RJ</h3>
+				<p>24 x R$ 600,00 (R$ 14.400,00)<br>À vista por R$ 14.280,00 (com 10% de desconto)</p>
+				<h3>Médicos alunos e ex-alunos do IBMR</h3>
+				<p>24 x R$ 600,00 (R$ 14.400,00)<br>À vista por R$ 14.280,00 (com 10% de desconto)</p>
+			</div>
+			<!-- /investimento -->
+
+			<!-- inscricao -->
+			<div id="cursoInscricao" class="clearfix">
+				<h2>Pré-inscrição</h2>
+				<p>Preencha os campos abaixo para reservar sua vaga no curso:</p>
+				
+				<form>
+					<p>
+						<label for="insc-nome">Nome completo:</label>
+						<input id="insc-nome" class="text" type="text">
+					</p>
+					<p>
+						<label for="insc-crm">Registro no CRM:</label>
+						<input id="insc-crm" class="text" type="text">
+					</p>
+					<p>
+						<label for="insc-email">E-mail:</label>
+						<input id="insc-email" class="text" type="text">
+					</p>
+					<p>
+						<label for="insc-tel">Telefone:</label>
+						<input  id="insc-tel" class="text" type="phone">
+					</p>
+					<p class="right">
+						<button type="submit" class="bt02 pequeno">Confirmar</button>
+					</p>
+				</form>
+			</div>
+			<!-- /inscricao -->
+			
+			<!-- contato -->
+			<div id="cursoContato">
+				<h2>Contato</h2>
+				<h3>Secretaria de Pós-Graduação</h3>
+				<p>
+					2ª à 6ª-feira - 9 às 12h e 14 às 17h<br>
+					Tel.: 21 3381-7965<br>
+					Email: marcia@sogima-rj.com
+				</p>
+				<p>Você também pode enviar uma mensagem através no nosso <a href="/contato/">fomulário de contato</a>.</p>
+			</div>
+			<!-- /contato -->
+				
+			<!-- outros cursos -->
+			<div id="cursoOutros">
+				<h2>Conheça outros cursos</h2>
+				<ul>
+					<li><a href="/">Pós-Graduação em Ginecologia & Obstetrícia</a></li>
+				</ul>
+			</div>			
+			<!-- /outros cursos -->
+		</div>
+		<!-- /coluna da direita -->
+	</div>
+	<!-- /conteudo da pagina -->
+
+	<!-- parceiros (sidebar) -->
+	<div class="parceiros span-6 last">
+		<div class="box">
+			<h2>Nossos parceiros</h2>
+			<p><a href="/"><img src="img/logo-nucem.png" width="83" height="140"></a></p>
+		</div>
+	</div>
+	
+	<div class="parceiros span-6 last">
+		<div class="box">
+			<h2>Nossos parceiros</h2>
+			<p><a href="/"><img src="img/logo-fqm.jpg" width="173" height="91"></a></p>
+			<p><a href="/"><img src="img/logo-fqm.jpg" width="173" height="91"></a></p>
+			<p><a href="/"><img src="img/logo-fqm.jpg" width="173" height="91"></a></p>
+		</div>
+	</div>
+	<!-- /parceiros -->
+</div>
+<!-- /conteudo -->
+
+<!-- footer -->
+<footer class="clearfix">
+	<div class="container">
+		<div class="span-24 last">
+			<div class="span-4">
+				<h2><a href="/">A SOGIMA</a></h2>
+				<ul>
+					<li><a href="/">Sobre a SOGIMA</a></li>
+					<li><a href="/">Diretoria e Comissões</a></li>
+					<li><a href="/">Sócios e Membros</a></li>
+					<li><a href="/">Estatuto</a></li>
+					<li><a href="/">Associar-se</a></li>
+				</ul>
+			</div>
+			<div class="span-4">
+				<h2><a href="/">Notícias</a></h2>
+				<ul>
+					<li><a href="/">Categoria 1</a></li>
+					<li><a href="/">Categoria 2</a></li>
+					<li><a href="/">Todas as notícias</a></li>
+				</ul>
+			</div>
+			<div class="span-4">
+				<h2><a href="/">Eventos</a></h2>
+				<ul>
+					<li><a href="/">Evento 1</a></li>
+					<li><a href="/">Evento 2</a></li>
+					<li><a href="/">Todos os eventos</a></li>
+				</ul>
+			</div>
+			<div class="span-4">
+				<h2><a href="/">Cursos</a></h2>
+				<ul>
+					<li><a href="/">Curso 1</a></li>
+					<li><a href="/">Curso 2</a></li>
+					<li><a href="/">Todos os cursos</a></li>
+				</ul>
+			</div>
+			<div class="span-4">
+				<h2><a href="/">Publicações</a></h2>
+				<ul>
+					<li><a href="/">Base de dados NUCEM</a></li>
+					<li><a href="/">Revista médica</a></li>
+				</ul>
+			</div>
+			<div class="span-4 last">
+				<h2><a href="/">Área restrita</a></h2>
+				<ul>
+					<li><a href="/">Área do associado</a></li>
+					<li><a href="/">Área do aluno</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<div id="endereco" class="container">
+	<div class="span-12">
+		<p>SOGIMA @2011 - Todos os direitos reservados</p>
+	</div>
+	<div class="span-12 last">
+		<p>Rua Exemplo, 123 - Bairro Exemplo - Rio de Janeiro - RJ <br />
+			21 2233-2211 - contato@sogima.com.br</p>
+	</div>
+</div>
+<!-- /footer -->
+
+</body>
+</html>
